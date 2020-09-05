@@ -134,7 +134,7 @@ Resources:
     Type: AWS::ApiGatewayV2::Route
     Properties:
       ApiId: !Ref ApiGatewayHttpProxyApi
-      RouteKey: ANY /
+      RouteKey: ANY /{proxy+}
       Target: !Join
         - /
         - - integrations
