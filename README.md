@@ -1,3 +1,6 @@
+# Image
+![AWS Minimal WebServer](https://user-images.githubusercontent.com/19386206/92300454-d4592900-ef95-11ea-8c23-001897792eea.png)
+
 # To create a stack of CloudFormation
 Create SSH key pair to access EC2 instance in advance.
 If `SshLocation` parameter is omitted, it will be '0.0.0.0/0' (no limit).
