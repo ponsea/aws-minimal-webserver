@@ -49,3 +49,5 @@ aws cloudformation describe-stacks --stack-name minimal-webserver
 ```
 ssh -i "/path/to/your-ssh-key.pem" ec2-user@<YOUR EC2 PUBLIC IP>
 ```
+# To delete the stack
+aws cloudformation delete-stack --stack-name minimal-webserver
